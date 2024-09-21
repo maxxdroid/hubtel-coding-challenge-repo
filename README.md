@@ -1,16 +1,20 @@
-# hubtel_coding_challenge
+# Hubtel Coding Challenge
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+I started by first categorizing areas I could make into widgets and how I would do it.
 
-A few resources to get you started if this is your first Flutter project:
+I used the PageView widget to simulate exactly what was in the ui, by creating various items to match the ui.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Then moving on to the main page where I broke down to widgets and built each component separately before calling all of them in the home screen.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+<table>
+    <tr>
+        <td><img src="assets/images/im2.png" width=250px height=500px /></td>
+        <td><img src="assets/images/im3.png" width=250px height=500px /></td>
+        <td><img src="assets/images/im4.png" width=250px height=500px /></td>
+    </tr>
+</table>
