@@ -60,6 +60,7 @@ class _PageTabsState extends State<PageTabs> {
         },
         currentIndex: pageIndex,
         type: BottomNavigationBarType.fixed,
+        backgroundColor: Colors.white,
         items: const [
           BottomNavigationBarItem(icon: Icon(CupertinoIcons.home), label: "Home"),
           BottomNavigationBarItem(icon: Icon(CupertinoIcons.device_phone_portrait), label: "Send"),
