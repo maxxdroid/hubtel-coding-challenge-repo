@@ -10,6 +10,8 @@ I used the PageView widget to simulate exactly what was in the ui, by creating v
 
 Then moving on to the main page where I broke down to widgets and built each component separately before calling all of them in the home screen.
 
+I wrote a unit test for the Card details widget to ensure it behaves as expected.
+
 
 <table>
     <tr>
