@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:hubtel_coding_challenge/pages/home.dart';
 
 class PageTabs extends StatefulWidget {
   const PageTabs({super.key});
@@ -44,7 +45,7 @@ class _PageTabsState extends State<PageTabs> {
           });
         },
         children: const [
-          Center(child: Text("Hello There"),),
+          Home(),
           Center(child: Text("Hello There"),),
           Center(child: Text("Hello There"),),
           Center(child: Text("Hello There"),),
@@ -59,6 +60,7 @@ class _PageTabsState extends State<PageTabs> {
         },
         currentIndex: pageIndex,
         type: BottomNavigationBarType.fixed,
+        backgroundColor: Colors.white,
         items: const [
           BottomNavigationBarItem(icon: Icon(CupertinoIcons.home), label: "Home"),
           BottomNavigationBarItem(icon: Icon(CupertinoIcons.device_phone_portrait), label: "Send"),
