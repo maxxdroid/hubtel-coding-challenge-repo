@@ -28,7 +28,7 @@ class _HomeState extends State<Home> {
           const Divider(),
           SearchBarWidget(width: width,),
           Container(
-            height: height* .6,
+            height: height* .65,
             child: const SingleChildScrollView(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -71,7 +71,7 @@ class _HomeState extends State<Home> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: Container(
-        padding: EdgeInsets.only(bottom: 20),
+        padding: const EdgeInsets.only(bottom: 20),
         width: 130,
         child: FloatingActionButton(
           backgroundColor: Colors.teal,

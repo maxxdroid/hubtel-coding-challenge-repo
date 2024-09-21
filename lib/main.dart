@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hubtel_coding_challenge/loading.dart';
 import 'package:hubtel_coding_challenge/pages/home.dart';
 import 'package:hubtel_coding_challenge/pages/page_tabs.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const PageTabs(),
+      home: const Loading(),
     );
   }
 }
