@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class PageTabs extends StatefulWidget {
@@ -59,10 +60,10 @@ class _PageTabsState extends State<PageTabs> {
         currentIndex: pageIndex,
         type: BottomNavigationBarType.fixed,
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-          BottomNavigationBarItem(icon: Icon(Icons.phone_iphone_sharp), label: "Send"),
+          BottomNavigationBarItem(icon: Icon(CupertinoIcons.home), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(CupertinoIcons.device_phone_portrait), label: "Send"),
           BottomNavigationBarItem(icon: Icon(Icons.list_alt_sharp), label: "History"),
-          BottomNavigationBarItem(icon: Icon(Icons.calendar_month), label: "Scheduled")
+          BottomNavigationBarItem(icon: Icon(CupertinoIcons.calendar), label: "Scheduled")
         ],
       ),
     );
